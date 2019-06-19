@@ -1,5 +1,5 @@
 baseurl = "https://username.github.io"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "br"
 #DefaultContentLanguage = "ja"
 title = "Beautiful Hugo"
 theme = "beautifulhugo"
@@ -18,7 +18,8 @@ pygmentsCodefencesGuessSyntax = true
   subtitle = "Build a beautiful and simple website in minutes"
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
+  #dateFormat = "January 2, 2006"
+  dateFormat = "2 de Janeiro 2006"
   commit = false
   rss = true
   comments = true
@@ -67,6 +68,12 @@ pygmentsCodefencesGuessSyntax = true
   paypal = "username"
   telegram = "username"
   500px = "username"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+  [languages.br]
+    contentDir = "content/br"
 
 [[menu.main]]
     name = "Blog"
